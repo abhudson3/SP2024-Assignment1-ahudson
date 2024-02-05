@@ -7,4 +7,8 @@
     <RootNamespace>SP2024_Assignment1_ahudson</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\globals.css" />
+  </ItemGroup>
+
 </Project>

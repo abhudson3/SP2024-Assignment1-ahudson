@@ -3,8 +3,66 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="./globals.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+
 </head>
-<body>
-    <div>Hello world andrew</div>
+<body >
+    <div class="container">
+
+        <h1 id="Title">Severance</h1>
+
+        <div class="image-cropper"></div>
+        <img id="CoverArt" src="https://static01.nyt.com/images/2022/02/18/arts/17severance/17severance-videoSixteenByNineJumbo1600.jpg" alt="Mark S sitting in contemplation" />
+        <h5 id="Rating">IMDB Rating - 8.7</h5>
+        <iframe id="Trailer" width="560" height="315" src="https://www.youtube.com/embed/xEQP4VVuyrY?si=A_VdgVXhxqC2TwZh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="pna">
+            <a href="https://www.imdb.com/title/tt11280740/">IMDB</a>
+            <p id="Summary">Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.</p>
+        </div>
+        <ul id="Actors">
+            <li>Adam Scott as Mark</li>
+            <li>Britt Lower as Helly</li>
+            <li>Patricia Arquette as Harmony Cobel</li>
+        </ul>
+
+    </div>
 </body>
+<style>
+    body {
+        font-family: 'SF Pro Display', sans-serif;
+        background-color: #f0e5e1
+    }
+    .pna {
+        margin-top: 3%;
+        width: 20%;
+        text-align: center;    
+        
+
+    }
+     
+    img {
+        border-radius: 50%;
+        width: 400px;
+        object-fit: cover;
+        height: 400px;
+        margin-bottom: 3%;
+        margin-top: 2%;
+        
+        
+        
+    }
+
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+    }
+
+</style>
 </html>
+
